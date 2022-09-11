@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --swiper-theme-color: #62DB54;
+  --swiper-pagination-bullet-inactive-color: #62DB54;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  @apply w-4 rounded-lg;
+}
+.swiper-w-auto{
+  @apply w-auto !important;
+} 
