@@ -993,8 +993,8 @@ select {
   background-image: -o-linear-gradient(left, var(--tw-gradient-stops));
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
-.bg-\[url\(\'\/assets\/images\/bg_home_mobile\.jpg\'\)\] {
-  background-image: url('/assets/images/bg_home_mobile.jpg');
+.bg-\[url\(\'\.\/assets\/images\/bg_home_mobile\.jpg\'\)\] {
+  background-image: url('./assets/images/bg_home_mobile.jpg');
 }
 .bg-gradient-to-b {
   background-image: -webkit-gradient(linear, left top, left bottom, from(var(--tw-gradient-stops)));
@@ -1496,8 +1496,8 @@ select {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
-  .lg\:bg-\[url\(\'\/assets\/images\/bg_home\.jpg\'\)\] {
-    background-image: url('/assets/images/bg_home.jpg');
+  .lg\:bg-\[url\(\'\.\/assets\/images\/bg_home\.jpg\'\)\] {
+    background-image: url('./assets/images/bg_home.jpg');
   }
 
   .lg\:from-\[\#909090\] {
