@@ -993,8 +993,8 @@ select {
   background-image: -o-linear-gradient(left, var(--tw-gradient-stops));
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
-.bg-\[url\(\'\.\/assets\/images\/bg_home_mobile\.jpg\'\)\] {
-  background-image: url('./assets/images/bg_home_mobile.jpg');
+.bg-\[url\(\'\@\/assets\/images\/bg_home_mobile\.jpg\'\)\] {
+  background-image: url('@/assets/images/bg_home_mobile.jpg');
 }
 .bg-gradient-to-b {
   background-image: -webkit-gradient(linear, left top, left bottom, from(var(--tw-gradient-stops)));
@@ -1012,6 +1012,21 @@ select {
 }
 .bg-\[url\(\/assets\/images\/info04\.jpg\)\] {
   background-image: url(/assets/images/info04.jpg);
+}
+.bg-\[url\(\'\.\.\/images\/bg_home_mobile\.jpg\'\)\] {
+  background-image: url('../images/bg_home_mobile.jpg');
+}
+.bg-\[url\(\.\.\/images\/info01\.jpg\)\] {
+  background-image: url(../images/info01.jpg);
+}
+.bg-\[url\(\.\.\/images\/info02\.jpg\)\] {
+  background-image: url(../images/info02.jpg);
+}
+.bg-\[url\(\.\.\/images\/info03\.jpg\)\] {
+  background-image: url(../images/info03.jpg);
+}
+.bg-\[url\(\.\.\/images\/info04\.jpg\)\] {
+  background-image: url(../images/info04.jpg);
 }
 .from-\[\#09ACF5\] {
   --tw-gradient-from: #09ACF5;
@@ -1498,6 +1513,10 @@ select {
 
   .lg\:bg-\[url\(\'\.\/assets\/images\/bg_home\.jpg\'\)\] {
     background-image: url('./assets/images/bg_home.jpg');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/images\/bg_home\.jpg\'\)\] {
+    background-image: url('../images/bg_home.jpg');
   }
 
   .lg\:from-\[\#909090\] {
